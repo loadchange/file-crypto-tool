@@ -36,10 +36,10 @@ file-crypto encrypt --input <inputFilePath> --output <outputFilePath> --password
 
 Arguments:
 
-`--input <inputFilePath>: The path to the input file to encrypt.`
-`--output <outputFilePath>: The path to the encrypted output file.`
-`--password <password>: The password used to encrypt the file.`
-`--algorithm <algorithm> (optional): The encryption algorithm, defaults to aes-256-cbc.`
+`--input <inputFilePath>`: The path to the input file to encrypt.
+`--output <outputFilePath>`: The path to the encrypted output file.
+`--password <password>`: The password used to encrypt the file.
+`--algorithm <algorithm> (optional)`: The encryption algorithm, defaults to aes-256-cbc.
 
 ## Decrypt a file
 To decrypt a file, use the following command:
@@ -50,10 +50,10 @@ file-crypto decrypt --input <inputFilePath> --output <outputFilePath> --password
 
 Arguments:
 
-`--input <inputFilePath>: The path to the input file to decrypt.`
-`--output <outputFilePath>: The path to the decrypted output file.`
-`--password <password>: The password used to decrypt the file.`
-`--algorithm <algorithm> (optional): The decryption algorithm, defaults to aes-256-cbc.`
+`--input <inputFilePath>`: The path to the input file to decrypt.
+`--output <outputFilePath>`: The path to the decrypted output file.
+`--password <password>`: The password used to decrypt the file.
+`--algorithm <algorithm> (optional)`: The decryption algorithm, defaults to aes-256-cbc.
 
 
 # Examples
